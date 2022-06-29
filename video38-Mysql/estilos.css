@@ -1,0 +1,19 @@
+table,td,tr,th{
+    border:3px solid #333;
+    border-collapse:collapse;
+    text-align:center;
+}
+td{
+    padding:5px;
+}
+th{
+    background:lightcoral;   
+   
+}
+tr:nth-child(odd){
+    background:lightgray;   
+}
+table{
+    width:70%;
+    margin :0 auto;
+}
