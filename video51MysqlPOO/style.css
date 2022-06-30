@@ -1,0 +1,50 @@
+body{
+    background:linear-gradient(45deg,rgb(37, 184, 159),#d7e,rgb(201, 60, 60));
+}
+form{
+    display:flex;
+    flex-direction: column;
+    width:230px;
+       margin:0 auto;
+       border:5px solid red;
+       background:rgb(230, 195, 42);
+       padding:30px;
+       text-align: center;
+}
+
+table,td,tr,th{
+    border:3px solid #333;
+    border-collapse:collapse;
+    text-align:center;
+    font-size:18px;
+}
+td{
+    padding:5px;
+}
+th{
+    background:lightcoral;   
+   
+}
+
+tr:nth-child(odd){
+    background:rgb(209, 206, 206);   
+    }
+tr:nth-child(even){
+    background:rgb(153, 151, 151);   
+}
+table{
+    width:70%;
+    margin :0 auto;
+}
+.btn{
+    width: 40%;
+    margin-top: 3px;
+    font-size: 0.8em;
+    background:#69d;
+    color:#333;
+}
+.btn:hover{
+    background: blue;
+    color:white;
+    transform:scale(1.2,1.2);
+}
