@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Document</title>
+    <style>
+        li{
+           display:inline-block;
+           margin: 5px;
+        }
+            </style>
+</head>
+<body>
+    <hr>
+    <h2>Elementos reservados para socios.</h2>
+    <h3>Bienvenido/a <?php echo isset($_COOKIE['nombre_usuario'])? $_COOKIE['nombre_usuario']:$_POST['login'];?></h3>
+
+    <ul>
+        <li>
+            <a href="#">link</a>
+        </li>
+        <li>
+            <a href="#">link</a>
+        </li>
+        <li>
+            <a href="#">link</a>
+        </li>
+        <li>
+            <a href="#">link</a>
+        </li>
+        <li>
+            <a href="#">link</a>
+        </li>
+        <li>
+            <a href="#">link</a>
+        </li>
+    </ul>
+    <hr>
+</body>
+</html>

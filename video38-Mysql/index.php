@@ -44,7 +44,7 @@ while (($fila = mysqli_fetch_row($resultados))) {
     echo "<td>" . $fila[2] . "</td>";
     echo "<td>" . $fila[3] . "</td>";
     echo "<td>" . $fila[4] . "</td>";
-    echo "<td>" . $fila[5] . "</td>";
+    echo "<td>" . $fila[5] . " €</td>";
     echo "</tr>";
 
 }

@@ -4,7 +4,7 @@ class Compra_vehiculos
 {
     private $precio_base;
     private static $ayuda_compra=0;
-    function Compra_vehiculos($gama)
+    function __construct($gama)
     {
         if ($gama == "urbano") {
             $this->precio_base = 10000;
