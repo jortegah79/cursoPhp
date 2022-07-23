@@ -38,7 +38,11 @@ foreach ($frutas as $tipo => $fruta) {
     echo "El tipo de fruta $tipo seleccionado es $fruta";
     echo "<br>";
 }
-$hoy=date("d-m-Y");
+
+
+$hoy=date("d-m-Y H:i:s");
+echo $hoy;
+echo "<br>";
 $cumple=date("d-m-Y",mktime(0,0,0,4,14,1979));
 $diferencia=date_diff(new DateTime($hoy),new DateTime($cumple));
 echo "Tienes ".$diferencia->format('%y años');

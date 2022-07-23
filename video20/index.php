@@ -47,3 +47,12 @@ function cambia_mayus(&$param){
 
 $cadena="hOlA mUnDO";
 echo cambia_mayus($cadena)."</br>";
+
+$texto="image/png";
+
+
+if(!strpos($texto,"image")){   
+echo "es una imagen";
+}else{
+   echo "no es una imagen";
+}

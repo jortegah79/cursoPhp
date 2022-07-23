@@ -1,0 +1,32 @@
+  
+       .post{
+        font-size:1.1rem;
+        border:5px solid #666;
+        width: 40%;
+        padding:10px 20px;
+        margin:5px auto;
+        background:linear-gradient(125deg,#779956,#996622);
+        }
+          .center{
+         color:gray;
+         background:#ddd;
+         border:5px solid #333;
+         box-shadow:4px 4px 5px 1px #6666ff;
+         width:300px;
+         margin:20px auto;
+         padding:20px;
+        display:block;
+        font-size:1.4em;
+        text-align:center;
+        }
+       .cabecera{
+         display:flex;
+         flex-direction:row;
+         justify-content: space-between;
+ 
+       }
+       .post .cabecera{
+         font-weight:bold;
+         font-size:22px;
+         
+       }
